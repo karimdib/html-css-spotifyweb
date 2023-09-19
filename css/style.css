@@ -229,10 +229,22 @@ menu {
 }
 
 .timing{
-    height: 2px;
-    border: 2px solid grey;
+    height: 4px;
+    border: 4px solid grey;
+    border-radius: 10px;
     width: 100%;
+    position: relative;
 }
+
+.timing-listen{
+    height: 4px;
+    border: 4px solid white;
+    width: 20%;border-radius: 10px;
+    position: absolute;
+    bottom: -4px;
+    left: -4px;
+}
+
 .timing-class > * {
     padding: 0px 5px;
 }
