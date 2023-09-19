@@ -8,6 +8,7 @@
 
 body{
     font-family: 'Fira Mono', monospace;
+    overflow: hidden
 }
 
 img{
@@ -89,6 +90,9 @@ menu {
     margin-bottom: 20px;
 }
 
+#home-cl{
+    color: white;
+}
 
 .page-main{
     width: calc(100% - 230px);
@@ -107,6 +111,7 @@ menu {
 
 .logo-spotify img{
     max-width: 134px;
+    margin-bottom: 20px;
 }
 
 .sidebar-content  li{
