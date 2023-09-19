@@ -65,6 +65,7 @@ menu {
     flex-grow: 1;
     background-color: #141922;
     color: white;
+    overflow: auto;
 
 }
 
@@ -154,7 +155,7 @@ menu {
     font-size: 15px;
 }
 
-.historycal-play{
+.create-for-john, .historycal-play, .popular-artist{
     padding: 20px;
 }
 
@@ -170,4 +171,9 @@ menu {
 .historycal-image__text{
     text-align: center;
     padding: 20px 0;
+}
+
+
+.border-img{
+    border-radius: 50%;
 }
