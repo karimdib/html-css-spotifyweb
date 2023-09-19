@@ -268,9 +268,9 @@ footer{
 
 .col-footer ul{
     display: flex;
-    color: white;
+    color:#929292;
     font-size: 20px;
-    opacity: 0.5;
+    
 }
 
 .col-footer ul > * {
@@ -288,8 +288,7 @@ footer{
 
 .thirth-footer-col{
     width: 20%;
-    color: white;
-    opacity: 0.5;
+    color: #929292;
 }
 
 .timing{
@@ -307,6 +306,18 @@ footer{
     position: absolute;
     bottom: -4px;
     left: -4px;
+}
+
+.circle{
+    color: white;
+    background-color: white;
+    width: max-content;
+    border-radius: 50%;
+    position: absolute;
+    top: -10px;
+    left: 150px;
+    display: none;
+
 }
 
 .thirth-footer-col > * {
@@ -362,7 +373,23 @@ footer{
     color: white;
 }
 
-
 .timing:hover .timing-listen:hover{
-    color: greenyellow;
+    border-color: greenyellow;
+}
+
+.first :hover{
+    opacity: 1;
+}
+
+
+.enitiy-list__toolbar li:hover{
+    color: white;
+}
+
+.thirth-footer-col i:hover{
+    color: white;
+}
+
+.first p:hover{
+    text-decoration: underline;
 }
