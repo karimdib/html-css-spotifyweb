@@ -216,9 +216,27 @@ menu {
     padding-right: 20px;
 }
 
+.relative-img {
+    position: relative;
+}
+
 .historycal-image__text{
     text-align: center;
-    padding: 20px 0;
+    padding: 5px 0;
+}
+
+.historycal-image__text > * {
+    padding: 5px 0;
+}
+
+.layer{
+    font-size:50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+
 }
 
 
@@ -392,4 +410,13 @@ footer{
 
 .first p:hover{
     text-decoration: underline;
+}
+
+.historycal-image img:hover{
+    background-color: black;
+    opacity: 0.4;
+}
+
+.relative-img:hover .layer{
+    opacity: 1;
 }
