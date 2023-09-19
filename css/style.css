@@ -194,13 +194,13 @@ menu {
 .category-list li {
     padding: 0 8px;
     font-weight: 700;
-    opacity: 0.5;
+    
     font-size: 15px;
 }
 
 .category-list a{
     text-decoration: none;
-    color: currentColor;
+    color: grey;
 }
 
 .create-for-john, .historycal-play, .popular-artist{
@@ -333,4 +333,36 @@ footer{
 
 .entity-play ul{
     margin-bottom: 14px;
+}
+
+
+/*hover*/
+
+.head-main a:hover{
+    scale: 1.1;
+}
+
+.category-list a:hover{
+    color: white;
+}
+
+.first-item__sidebar li:hover{
+    color: white;
+}
+
+.second-item__sidebar li:hover{
+    color: white;
+}
+
+.second-item__sidebar i:hover{
+    background-color: white;
+}
+
+.install-app:hover{
+    color: white;
+}
+
+
+.timing:hover .timing-listen:hover{
+    color: greenyellow;
 }
