@@ -226,6 +226,8 @@ menu {
 
 .thirth-footer-col{
     width: 20%;
+    color: white;
+    opacity: 0.5;
 }
 
 .timing{
@@ -243,6 +245,19 @@ menu {
     position: absolute;
     bottom: -4px;
     left: -4px;
+}
+
+.thirth-footer-col > * {
+    padding: 10px;
+}
+
+.thirth-footer-col  i{
+    font-size:20px ;
+    padding: 0 10px;
+}
+
+.gg{
+    flex-grow:1 ;
 }
 
 .timing-class > * {
