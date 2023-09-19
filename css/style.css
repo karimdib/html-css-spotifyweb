@@ -44,8 +44,12 @@ menu {
 }
 
 
+.align-center{
+    align-items: center;
+}
+
 .footer-pd{
-    padding: 30px;
+    padding: 10px;
 }
 
 
@@ -197,6 +201,17 @@ menu {
 
 /*toolbar*/
 
+.toolbar{
+    margin-bottom: 0 auto;
+    position: sticky;
+
+}
+
+.first{
+    display: flex;
+    align-items: center;
+}
+
 .first img{
     width: 44px;
 }
@@ -273,3 +288,6 @@ menu {
     align-items: center;
 }
 
+.entity-play ul{
+    margin-bottom: 14px;
+}
