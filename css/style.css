@@ -6,12 +6,142 @@
     box-sizing: border-box;
 }
 
+img{
+    width: 100%;
+}
+
 ul,
 ol,
 menu {
     list-style: none;
 }
 
+
+
+.debug{
+    min-height: 300px;
+    border: 1px solid red;
+}
+
+
 .container{
-    max-width: 1440px;
+    max-width: 1440px;    
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sidebar{
+    width: 230px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+}
+
+.sidebar-content{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-content > *{
+    padding: 10px 0;
+}
+
+.page-main{
+    height: 100vh;
+    flex-grow: 1;
+    background-color: #141922;
+    color: white;
+
+}
+
+.toolbar{
+    min-height: 90px;
+    background-color:#282828 ;
+}
+
+.logo-spotify img{
+    max-width: 134px;
+}
+
+.sidebar-content  li{
+    padding: 5px 0;
+}
+
+.sidebar-content i{
+    font-size: 20px;
+    padding-right: 4px;
+}
+
+.second-item__sidebar i{ 
+    background-color: #a3a3a3;
+    padding: 5px;
+    color: black;
+}
+
+
+.thirth-item__sidebar p{
+    border-bottom: 1px solid grey;
+    padding: 10px 0;
+}
+
+.install-app > i, p {
+    color: #a3a3a3;
+    font-size: 11px;
+}
+
+.name-user i{
+    background-color: grey;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+
+.thirth-item__sidebar h4{
+    padding: 20px 0;
+    font-size: 20px
+}
+
+/*main*/
+
+.head-main{
+    min-height: 80px;
+    background-color: #080b12;
+    padding: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.head-main a{
+    font-size: 14px;
+    color: white;
+    font-weight: 400;
+    border: 1px solid white;
+    padding: 10px 15px ;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+.category{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.category-list{
+    display: flex;
+}
+
+.category-list li {
+    padding: 0 8px;
+    font-weight: 700;
+    opacity: 0.5;
+    font-size: 15px;
 }
