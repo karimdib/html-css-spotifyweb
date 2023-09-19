@@ -39,6 +39,25 @@ menu {
     flex-wrap: wrap;
 }
 
+.justify-center{
+    justify-content: center;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+
+.footer-pd{
+    padding: 30px;
+}
+
+
+.flex-end{
+    display: flex;
+    justify-content:flex-end ;
+}
+
 .sidebar{
     width:230px;
     flex-shrink: 0;
@@ -70,7 +89,7 @@ menu {
 }
 
 .toolbar{
-    min-height: 90px;
+    
     background-color:#282828 ;
 }
 
@@ -176,4 +195,49 @@ menu {
 
 .border-img{
     border-radius: 50%;
+}
+
+.first > * {
+    padding: 0px 10px;
+    font-size: 20px;
+    color: white;
+    opacity: 0.5;    
+}
+
+.col-footer ul{
+    display: flex;
+    color: white;
+    font-size: 20px;
+    opacity: 0.5;
+}
+
+.col-footer ul > * {
+    padding: 0 10px;
+
+}
+
+.first-footer-col{
+    width: 20%;
+}
+
+.second-footer-col{
+    width: 60%;
+}
+
+.thirth-footer-col{
+    width: 20%;
+}
+
+.timing{
+    height: 2px;
+    border: 2px solid grey;
+    width: 100%;
+}
+.timing-class > * {
+    padding: 0px 5px;
+}
+
+.timing-class{
+    display: flex;
+    align-items: center;
 }
