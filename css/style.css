@@ -29,10 +29,6 @@ menu {
 }
 
 
-.container{
-    max-width: 1440px;  
-    
-}
 
 .row{
     display: flex;
@@ -197,6 +193,14 @@ menu {
     border-radius: 50%;
 }
 
+
+
+/*toolbar*/
+
+.first img{
+    width: 44px;
+}
+
 .first > * {
     padding: 0px 10px;
     font-size: 20px;
@@ -268,3 +272,4 @@ menu {
     display: flex;
     align-items: center;
 }
+
