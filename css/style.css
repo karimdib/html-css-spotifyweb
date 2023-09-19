@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Fira Mono', monospace;
+}
+
 img{
     width: 100%;
 }
@@ -64,7 +68,7 @@ menu {
     display: flex;
     flex-direction: column;
     background-color: #000000;
-    color: white;
+    color: grey;
     padding: 20px;
 }
 
@@ -75,8 +79,16 @@ menu {
 }
 
 .sidebar-content > *{
-    padding: 10px 0;
+    line-height: 20px;
+    font-size: 15px;
 }
+
+
+
+.first-item__sidebar{
+    margin-bottom: 20px;
+}
+
 
 .page-main{
     width: calc(100% - 230px);
@@ -112,6 +124,12 @@ menu {
     color: black;
 }
 
+.second-item__sidebar h4{
+    color:white;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
 
 .thirth-item__sidebar p{
     border-bottom: 1px solid grey;
@@ -123,6 +141,7 @@ menu {
     font-size: 11px;
 }
 
+
 .name-user i{
     background-color: grey;
     padding: 5px;
@@ -132,13 +151,13 @@ menu {
 
 .thirth-item__sidebar h4{
     padding: 20px 0;
+    color: white;
     font-size: 18px
 }
 
 /*main*/
 
 .head-main{
-    min-height: 80px;
     background-color: #080b12;
     padding: 20px;
     display: flex;
@@ -174,6 +193,11 @@ menu {
     font-size: 15px;
 }
 
+.category-list a{
+    text-decoration: none;
+    color: currentColor;
+}
+
 .create-for-john, .historycal-play, .popular-artist{
     padding: 20px;
 }
@@ -197,13 +221,27 @@ menu {
     border-radius: 50%;
 }
 
+.title__create-for-john > *{
+    padding:5px 0;
+}
 
+.title__create-for-john{
+    margin-bottom: 10px;
+}
+
+.title__popular-artist{
+    margin-bottom: 10px;
+}
+
+.title__popular-artist > *{
+    padding: 5px 0;
+}
 
 /*toolbar*/
 
-.toolbar{
-    margin-bottom: 0 auto;
+footer{
     position: sticky;
+    bottom: 0 ;
 
 }
 
