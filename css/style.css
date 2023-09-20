@@ -7,8 +7,8 @@
 }
 
 body{
-    font-family: 'Fira Mono', monospace;
-    overflow: hidden
+    font-family: 'Open Sans', sans-serif;
+    overflow: hidden;
 }
 
 img{
@@ -84,10 +84,16 @@ menu {
     font-size: 15px;
 }
 
-
+.thirth-item__sidebar{
+    margin-bottom: 42px;
+}
 
 .first-item__sidebar{
     margin-bottom: 20px;
+}
+
+.second-item__sidebar{
+    flex-grow: 1;
 }
 
 #home-cl{
@@ -260,6 +266,10 @@ menu {
     padding: 5px 0;
 }
 
+.popular-artist{
+    margin-bottom: 60px;
+}
+
 /*toolbar*/
 
 footer{
@@ -271,6 +281,7 @@ footer{
 .first{
     display: flex;
     align-items: center;
+    flex-wrap: nowrap;
 }
 
 .first img{
@@ -393,6 +404,10 @@ footer{
 
 .timing:hover .timing-listen:hover{
     border-color: greenyellow;
+}
+
+.timing:hover .circle{
+    display: block;
 }
 
 .first :hover{
