@@ -264,6 +264,10 @@ menu {
     margin-bottom: 10px;
 }
 
+.title__create-for-john, .title__popular-artist {
+    margin-bottom: 20px;
+}
+
 .title__popular-artist > *{
     padding: 5px 0;
 }
