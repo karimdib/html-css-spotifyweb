@@ -1,10 +1,25 @@
-@media screen  and (max-width: 1200px) {
-
-}
-
 
 @media screen  and (max-width: 992px) {
+     .col{
+        flex-basis: calc((100% / 12 ) * 3);
+    }
 
+    .last-item__category-list{
+        flex-basis: 100%;
+        text-align: center;
+    }
+
+    .footer-pd{
+        gap: 10px;
+    }
+
+    .second-footer-col{
+        width: 50%;
+    }
+
+    .circle {
+        left: 70px;
+    }
 }
 
 @media screen  and (max-width: 768px) {
