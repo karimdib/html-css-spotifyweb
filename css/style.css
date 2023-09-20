@@ -202,6 +202,16 @@ menu {
     color: grey;
 }
 
+.border-li-items::after{
+    content: '';
+	display: block;
+	width: 50%;
+	height: 3px;
+    position: relative;
+    left: 25%;
+    background-color: greenyellow;
+}
+
 .create-for-john, .historycal-play, .popular-artist{
     padding: 20px;
 }
@@ -436,3 +446,5 @@ footer{
 .thirth-footer-col i{
     padding: 0 5px;
 }
+
+
