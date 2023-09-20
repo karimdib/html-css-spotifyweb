@@ -34,7 +34,6 @@ menu {
 }
 
 
-
 .row{
     display: flex;
     flex-wrap: wrap;
@@ -115,8 +114,13 @@ menu {
     background-color:#282828 ;
 }
 
-.logo-spotify img{
+.logo-lg{
     max-width: 134px;
+    margin-bottom: 20px;
+}
+
+.logo-sm{
+    display: none;
     margin-bottom: 20px;
 }
 
@@ -189,7 +193,7 @@ menu {
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 .category-list{
@@ -436,4 +440,14 @@ footer{
 
 .relative-img:hover .layer{
     opacity: 1;
+}
+
+
+.enitity-song {
+    display: flex;
+    gap: 10px;
+ }
+
+.thirth-footer-col i{
+    padding: 0 5px;
 }
