@@ -1,4 +1,4 @@
-
+/*media 992px*/
 @media screen  and (max-width: 992px) {
      .col{
         flex-basis: calc((100% / 12 ) * 3);
@@ -23,6 +23,7 @@
 
     
 }
+/*media 768px*/
 
 @media screen  and (max-width: 768px) {
     .col{
@@ -31,7 +32,6 @@
 
     .category-list li{
         flex-basis: calc((100% / 12) * 3);
-
     }
 
     .circle {
@@ -55,7 +55,7 @@
     }
     
 }
-
+/*media 576px*/
 @media screen  and (max-width:576px) {
 
     .sidebar-content{
